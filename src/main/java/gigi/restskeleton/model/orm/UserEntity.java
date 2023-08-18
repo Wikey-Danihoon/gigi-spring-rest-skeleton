@@ -15,9 +15,7 @@ import lombok.ToString;
 @Setter
 @ToString
 @Entity
-@Table(
-    name = "`user`",
-    indexes = {@Index(name = "user_nickname_idx", columnList = "nickname", unique = true)})
+@Table(name = "user")
 @AllArgsConstructor
 @NoArgsConstructor
 public class UserEntity {
