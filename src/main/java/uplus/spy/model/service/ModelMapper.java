@@ -13,7 +13,7 @@ import org.mapstruct.Mapping;
 @Mapper(componentModel = "spring")
 public interface ModelMapper {
 
-  @Mapping(target = "name", source = "nickname")
+  // @Mapping(target = "name", source = "nickname")
   Author map(UserEntity userEntity);
 
   Post map(PostEntity postEntity);

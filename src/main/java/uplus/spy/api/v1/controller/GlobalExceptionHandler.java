@@ -1,8 +1,8 @@
-package uplus.psy.api.v1.controller;
+package uplus.spy.api.v1.controller;
 
-import uplus.psy.api.v1.response.ApiErrorResponse;
-import uplus.psy.model.exception.ApplicationRuntimeException;
-import uplus.psy.model.exception.PostNotFoundException;
+import uplus.spy.api.v1.response.ApiErrorResponse;
+import uplus.spy.model.exception.ApplicationRuntimeException;
+import uplus.spy.model.exception.PostNotFoundException;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
