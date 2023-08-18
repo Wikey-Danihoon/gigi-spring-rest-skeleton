@@ -1,3 +1,3 @@
-package gigi.restskeleton.model.domain;
+package uplus.spy.model.domain;
 
 public record Author(String name) {}

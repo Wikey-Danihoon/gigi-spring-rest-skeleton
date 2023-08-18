@@ -1,11 +1,11 @@
-package gigi.restskeleton.model.repository;
+package uplus.spy.model.repository;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-import gigi.restskeleton.AbstractDataSourceTest;
-import gigi.restskeleton.model.orm.PostEntity;
-import gigi.restskeleton.model.orm.TagEntity;
-import gigi.restskeleton.model.orm.UserEntity;
+import uplus.spy.AbstractDataSourceTest;
+import uplus.spy.model.orm.PostEntity;
+import uplus.spy.model.orm.TagEntity;
+import uplus.spy.model.orm.UserEntity;
 import jakarta.persistence.EntityManager;
 import jakarta.transaction.Transactional;
 import java.time.Instant;

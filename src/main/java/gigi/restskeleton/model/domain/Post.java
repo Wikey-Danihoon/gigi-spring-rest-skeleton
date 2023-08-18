@@ -1,4 +1,4 @@
-package gigi.restskeleton.model.domain;
+package uplus.spy.model.domain;
 
 import java.time.Instant;
 import java.util.Set;

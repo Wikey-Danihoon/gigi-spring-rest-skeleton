@@ -1,4 +1,4 @@
-package gigi.restskeleton.model.orm;
+package uplus.spy.model.orm;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;

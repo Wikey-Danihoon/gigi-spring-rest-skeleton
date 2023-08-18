@@ -1,6 +1,6 @@
-package gigi.restskeleton.model.repository;
+package uplus.spy.model.repository;
 
-import gigi.restskeleton.model.orm.PostEntity;
+import uplus.spy.model.orm.PostEntity;
 import java.util.Collection;
 import java.util.List;
 import java.util.Optional;

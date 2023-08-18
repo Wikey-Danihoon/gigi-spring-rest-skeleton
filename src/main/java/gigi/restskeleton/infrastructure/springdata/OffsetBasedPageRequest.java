@@ -1,4 +1,4 @@
-package gigi.restskeleton.infrastructure.springdata;
+package uplus.spy.infrastructure.springdata;
 
 import java.io.Serial;
 import java.io.Serializable;

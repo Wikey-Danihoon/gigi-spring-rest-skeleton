@@ -1,4 +1,4 @@
-package gigi.restskeleton.api.v1.response;
+package uplus.spy.api.v1.response;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import java.time.Instant;

@@ -1,4 +1,4 @@
-package gigi.restskeleton.model.service;
+package uplus.spy.model.service;
 
 import java.util.UUID;
 

@@ -1,4 +1,4 @@
-package gigi.restskeleton;
+package uplus.spy;
 
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;

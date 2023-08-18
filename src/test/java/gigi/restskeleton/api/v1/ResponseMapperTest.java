@@ -1,11 +1,11 @@
-package gigi.restskeleton.api.v1;
+package uplus.spy.api.v1;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-import gigi.restskeleton.api.v1.response.AuthorResponse;
-import gigi.restskeleton.api.v1.response.PostResponse;
-import gigi.restskeleton.model.domain.Author;
-import gigi.restskeleton.model.domain.Post;
+import uplus.spy.api.v1.response.AuthorResponse;
+import uplus.spy.api.v1.response.PostResponse;
+import uplus.spy.model.domain.Author;
+import uplus.spy.model.domain.Post;
 import java.time.Instant;
 import java.util.Set;
 import java.util.UUID;

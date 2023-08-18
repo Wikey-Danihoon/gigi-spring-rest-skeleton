@@ -1,15 +1,15 @@
-package gigi.restskeleton.api.v1.controller;
+package uplus.spy.api.v1.controller;
 
-import gigi.restskeleton.api.v1.ResponseMapper;
-import gigi.restskeleton.api.v1.openapi.ApiCommon;
-import gigi.restskeleton.api.v1.openapi.ApiNotFound;
-import gigi.restskeleton.api.v1.openapi.ApiValidationError;
-import gigi.restskeleton.api.v1.request.PostCreateRequest;
-import gigi.restskeleton.api.v1.request.PostUpdateRequest;
-import gigi.restskeleton.api.v1.response.GetPostsResponse;
-import gigi.restskeleton.api.v1.response.PostResponse;
-import gigi.restskeleton.model.domain.Post;
-import gigi.restskeleton.model.service.PostService;
+import uplus.spy.api.v1.ResponseMapper;
+import uplus.spy.api.v1.openapi.ApiCommon;
+import uplus.spy.api.v1.openapi.ApiNotFound;
+import uplus.spy.api.v1.openapi.ApiValidationError;
+import uplus.spy.api.v1.request.PostCreateRequest;
+import uplus.spy.api.v1.request.PostUpdateRequest;
+import uplus.spy.api.v1.response.GetPostsResponse;
+import uplus.spy.api.v1.response.PostResponse;
+import uplus.spy.model.domain.Post;
+import uplus.spy.model.service.PostService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;

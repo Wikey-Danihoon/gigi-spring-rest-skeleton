@@ -1,4 +1,4 @@
-package gigi.restskeleton.api.v1.request;
+package uplus.spy.api.v1.request;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.NotBlank;

@@ -1,4 +1,4 @@
-package gigi.restskeleton.api.v1.controller;
+package uplus.spy.api.v1.controller;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.ArgumentMatchers.any;
@@ -6,15 +6,15 @@ import static org.mockito.Mockito.doThrow;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
-import gigi.restskeleton.api.v1.request.PostCreateRequest;
-import gigi.restskeleton.api.v1.request.PostUpdateRequest;
-import gigi.restskeleton.api.v1.response.ApiErrorResponse;
-import gigi.restskeleton.api.v1.response.GetPostsResponse;
-import gigi.restskeleton.api.v1.response.PostResponse;
-import gigi.restskeleton.model.domain.Author;
-import gigi.restskeleton.model.domain.Post;
-import gigi.restskeleton.model.exception.PostNotFoundException;
-import gigi.restskeleton.model.service.PostService;
+import uplus.spy.api.v1.request.PostCreateRequest;
+import uplus.spy.api.v1.request.PostUpdateRequest;
+import uplus.spy.api.v1.response.ApiErrorResponse;
+import uplus.spy.api.v1.response.GetPostsResponse;
+import uplus.spy.api.v1.response.PostResponse;
+import uplus.spy.model.domain.Author;
+import uplus.spy.model.domain.Post;
+import uplus.spy.model.exception.PostNotFoundException;
+import uplus.spy.model.service.PostService;
 import java.time.Clock;
 import java.time.Instant;
 import java.util.Collections;

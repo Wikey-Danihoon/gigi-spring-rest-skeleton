@@ -1,13 +1,13 @@
-package gigi.restskeleton.model.service;
+package uplus.spy.model.service;
 
-import gigi.restskeleton.infrastructure.springdata.OffsetBasedPageRequest;
-import gigi.restskeleton.model.domain.Post;
-import gigi.restskeleton.model.exception.PostNotFoundException;
-import gigi.restskeleton.model.orm.PostEntity;
-import gigi.restskeleton.model.orm.TagEntity;
-import gigi.restskeleton.model.orm.UserEntity;
-import gigi.restskeleton.model.repository.PostRepository;
-import gigi.restskeleton.model.repository.TagRepository;
+import uplus.spy.infrastructure.springdata.OffsetBasedPageRequest;
+import uplus.spy.model.domain.Post;
+import uplus.spy.model.exception.PostNotFoundException;
+import uplus.spy.model.orm.PostEntity;
+import uplus.spy.model.orm.TagEntity;
+import uplus.spy.model.orm.UserEntity;
+import uplus.spy.model.repository.PostRepository;
+import uplus.spy.model.repository.TagRepository;
 import jakarta.persistence.EntityManager;
 import jakarta.transaction.Transactional;
 import jakarta.validation.constraints.NotNull;

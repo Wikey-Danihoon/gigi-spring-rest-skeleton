@@ -1,6 +1,6 @@
-package gigi.restskeleton.api.v1.openapi;
+package uplus.spy.api.v1.openapi;
 
-import gigi.restskeleton.api.v1.response.ApiErrorResponse;
+import uplus.spy.api.v1.response.ApiErrorResponse;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.ExampleObject;
 import io.swagger.v3.oas.annotations.media.Schema;

@@ -1,8 +1,8 @@
-package gigi.restskeleton.api.v1.controller;
+package uplus.psy.api.v1.controller;
 
-import gigi.restskeleton.api.v1.response.ApiErrorResponse;
-import gigi.restskeleton.model.exception.ApplicationRuntimeException;
-import gigi.restskeleton.model.exception.PostNotFoundException;
+import uplus.psy.api.v1.response.ApiErrorResponse;
+import uplus.psy.model.exception.ApplicationRuntimeException;
+import uplus.psy.model.exception.PostNotFoundException;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;

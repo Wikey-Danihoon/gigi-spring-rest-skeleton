@@ -1,4 +1,4 @@
-package gigi.restskeleton.api.v1.response;
+package uplus.spy.api.v1.response;
 
 import java.util.List;
 

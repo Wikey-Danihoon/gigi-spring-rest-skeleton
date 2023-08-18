@@ -1,4 +1,4 @@
-package gigi.restskeleton.model.exception;
+package uplus.spy.model.exception;
 
 public class PostNotFoundException extends ApplicationRuntimeException {
 

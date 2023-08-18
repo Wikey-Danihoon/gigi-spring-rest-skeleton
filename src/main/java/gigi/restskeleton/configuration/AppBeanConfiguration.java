@@ -1,4 +1,4 @@
-package gigi.restskeleton.configuration;
+package uplus.spy.configuration;
 
 import io.swagger.v3.oas.models.ExternalDocumentation;
 import io.swagger.v3.oas.models.OpenAPI;
@@ -25,8 +25,8 @@ public class AppBeanConfiguration {
     return new OpenAPI()
         .info(
             new Info()
-                .title("Gigi Rest Skeleton API")
-                .description("Simple Rest Spring Boot 3 skeleton application.")
+                .title("Uplus Spy API")
+                .description("Rest Spring Boot 3 application.")
                 .version(apiVersion)
                 .license(new License().name("Apache 2.0")))
         .externalDocs(new ExternalDocumentation().description("GitHub repository").url(projectUrl));
